@@ -15,7 +15,7 @@ MapboxGL.setAccessToken(
 );
 
 const App = () => {
-  const [coordinates] = useState([78.9629, 20.5937]);
+  const [coordinates] = useState([9.0820, 8.6753]);
   const [route, setRoute] = useState({
     type: "FeatureCollection",
     features: [
@@ -25,8 +25,8 @@ const App = () => {
         geometry: {
           type: "LineString",
           coordinates: [
-            [77.5946, 12.9716],
-            [80.2707, 13.0827],
+            [6.5244, 3.3792],
+            [6.9980, 3.4737],
           ],
         },
       },
